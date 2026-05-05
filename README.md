@@ -136,8 +136,9 @@ This repo is:
 
 ## 🔗 Connect With Me
 
-* LinkedIn: (Add your profile link)
+* LinkedIn: www.linkedin.com/in/kalpeshnjain09
 * GitHub: https://github.com/KalpeshJain18
+* Leetcode : https://leetcode.com/u/kalpeshJain09/
 
 ---
 
