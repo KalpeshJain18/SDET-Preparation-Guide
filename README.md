@@ -1,3 +1,5 @@
+👉 ⭐ “If this repo helps you, consider starring it and share we like mind people”
+
 # SDET Preparation Guide
 
 A complete and structured **SDET (Software Development Engineer in Test) preparation guide** designed for:
