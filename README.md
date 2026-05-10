@@ -28,10 +28,8 @@ Currently working in **FinTech (Loan Origination System)** and actively preparin
 This repository is a **complete roadmap + practical guide** for SDET interviews.
 
 ### 🧠 1. Playwright (JavaScript)
-
-# Playwright Complete Guide
-
-Topics Covered:
+ 
+Playwright Complete Guide Topics Covered:
 1. Core Concepts
 2. Locators
 3. Actions & Assertions
