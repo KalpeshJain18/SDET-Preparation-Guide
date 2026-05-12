@@ -30,12 +30,12 @@ This repository is a **complete roadmap + practical guide** for SDET interviews.
 ### 🧠 1. Playwright (JavaScript)
  
 Playwright Complete Guide Topics Covered:
-1. Core Concepts
-2. Locators
-3. Actions & Assertions
-4. Framework Design
-5. Advanced Topics
-6. API Testing with Playwright
+* Core Concepts
+* Locators
+* Actions & Assertions
+* Framework Design
+* Advanced Topics
+* API Testing with Playwright
 
 ---
 
