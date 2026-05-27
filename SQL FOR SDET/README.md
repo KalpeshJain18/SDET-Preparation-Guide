@@ -13,6 +13,7 @@ A complete SQL roadmap specially designed for:
 # 🚀 ABOUT THIS REPOSITORY
 
 This repository contains:
+
 - SQL fundamentals
 - Intermediate SQL concepts
 - Real-time database validation queries
@@ -21,6 +22,7 @@ This repository contains:
 - API validation use cases
 
 The content is focused on practical SQL knowledge required for:
+
 - Automation Engineers
 - SDET Roles
 - QA Automation
@@ -44,29 +46,36 @@ The content is focused on practical SQL knowledge required for:
 10. INSERT Statement  
 11. UPDATE Statement  
 12. DELETE Statement  
-13. NULL Handling ⭐  
-14. SQL Constraints ⭐  
-15. Primary Key vs Foreign Key ⭐  
+13. TRUNCATE Statement  
+14. DROP Statement  
+15. ALTER TABLE  
+16. NULL Handling ⭐  
+17. SQL Constraints ⭐  
+18. Primary Key vs Foreign Key ⭐  
 
 ---
 
 # 🟡 PART 2 → SQL INTERMEDIATE CONCEPTS
 
-16. SQL Joins ⭐  
-17. INNER JOIN ⭐  
-18. LEFT JOIN ⭐  
-19. RIGHT JOIN  
-20. FULL OUTER JOIN  
-21. SELF JOIN  
-22. CROSS JOIN  
-23. GROUP BY Clause ⭐  
-24. HAVING Clause ⭐  
-25. Aggregate Functions ⭐  
-26. UNION vs UNION ALL  
-27. Subqueries ⭐  
-28. EXISTS vs IN ⭐  
-29. CASE Statement  
-30. Views in SQL  
+19. SQL Joins ⭐  
+20. INNER JOIN ⭐  
+21. LEFT JOIN ⭐  
+22. RIGHT JOIN  
+23. FULL OUTER JOIN  
+24. SELF JOIN  
+25. CROSS JOIN  
+26. GROUP BY Clause ⭐  
+27. HAVING Clause ⭐  
+28. Aggregate Functions ⭐  
+29. UNION vs UNION ALL  
+30. Subqueries ⭐  
+31. EXISTS vs IN ⭐  
+32. CASE Statement  
+33. Views in SQL  
+34. Indexes in SQL ⭐  
+35. Stored Procedures  
+36. Transactions ⭐  
+37. COMMIT / ROLLBACK ⭐  
 
 ---
 
@@ -81,6 +90,7 @@ The following topics are heavily asked in SDET interviews:
 - Subqueries
 - Primary Key vs Foreign Key
 - NULL Handling
+- Transactions
 - Real-Time Validation Queries
 
 ---
@@ -143,6 +153,8 @@ Dynamic test data handling for automation.
 - WHERE
 - ORDER BY
 - INSERT / UPDATE / DELETE
+- NULL Handling
+- Constraints
 
 ---
 
@@ -153,15 +165,19 @@ Dynamic test data handling for automation.
 - HAVING
 - Aggregate Functions
 - Subqueries
+- UNION
+- CASE Statement
 
 ---
 
 ## ✅ PHASE 3 → ADVANCED INTERMEDIATE
 
 - EXISTS vs IN
-- CASE Statement
 - Views
-- UNION vs UNION ALL
+- Transactions
+- Indexes
+- Stored Procedures
+- ALTER TABLE
 
 ---
 
@@ -194,39 +210,45 @@ This repository is useful for:
 # 🚀 REPOSITORY STRUCTURE
 
 ```text
-SQL-For-SDET/
+SQL-FOR-SDET/
 │
-├── 01-SQL-Basics.md
-├── 02-SQL-Data-Types.md
-├── 03-SELECT-Statement.md
-├── 04-WHERE-Clause.md
-├── 05-Operators-in-SQL.md
-├── 06-ORDER-BY-Clause.md
-├── 07-DISTINCT-Keyword.md
-├── 08-LIMIT-Clause.md
-├── 09-Aliases-in-SQL.md
-├── 10-INSERT-Statement.md
-├── 11-UPDATE-Statement.md
-├── 12-DELETE-Statement.md
-├── 13-NULL-Handling.md
-├── 14-SQL-Constraints.md
-├── 15-Primary-Key-vs-Foreign-Key.md
+├── 01-SQL-BASICS.md
+├── 02-SQL-DATA-TYPES.md
+├── 03-SELECT-STATEMENT.md
+├── 04-WHERE-CLAUSE.md
+├── 05-OPERATORS-IN-SQL.md
+├── 06-ORDER-BY-CLAUSE.md
+├── 07-DISTINCT-KEYWORD.md
+├── 08-LIMIT-CLAUSE.md
+├── 09-ALIASES-IN-SQL.md
+├── 10-INSERT-STATEMENT.md
+├── 11-UPDATE-STATEMENT.md
+├── 12-DELETE-STATEMENT.md
+├── 13-TRUNCATE-STATEMENT.md
+├── 14-DROP-STATEMENT.md
+├── 15-ALTER-TABLE.md
+├── 16-NULL-HANDLING.md
+├── 17-SQL-CONSTRAINTS.md
+├── 18-PRIMARY-KEY-vs-FOREIGN-KEY.md
 │
-├── 16-SQL-Joins.md
-├── 17-INNER-JOIN.md
-├── 18-LEFT-JOIN.md
-├── 19-RIGHT-JOIN.md
-├── 20-FULL-OUTER-JOIN.md
-├── 21-SELF-JOIN.md
-├── 22-CROSS-JOIN.md
-├── 23-GROUP-BY-Clause.md
-├── 24-HAVING-Clause.md
-├── 25-Aggregate-Functions.md
-├── 26-UNION-vs-UNION-ALL.md
-├── 27-Subqueries.md
-├── 28-EXISTS-vs-IN.md
-├── 29-CASE-Statement.md
-└── 30-Views-in-SQL.md
+├── 19-SQL-JOINS.md
+├── 20-INNER-JOIN.md
+├── 21-LEFT-JOIN.md
+├── 22-RIGHT-JOIN.md
+├── 23-FULL-OUTER-JOIN.md
+├── 24-SELF-JOIN.md
+├── 25-CROSS-JOIN.md
+├── 26-GROUP-BY-CLAUSE.md
+├── 27-HAVING-CLAUSE.md
+├── 28-AGGREGATE-FUNCTIONS.md
+├── 29-UNION-vs-UNION-ALL.md
+├── 30-SUBQUERIES.md
+├── 31-EXISTS-vs-IN.md
+├── 32-CASE-STATEMENT.md
+├── 33-VIEWS-IN-SQL.md
+├── 34-INDEXES-IN-SQL.md
+├── 35-STORED-PROCEDURES.md
+└── 36-TRANSACTIONS.md
 ```
 
 ---
@@ -245,6 +267,7 @@ Automation Engineer | Mentor | Community Builder
 # ⭐ SUPPORT
 
 If this repository helps you:
+
 - Star the repository
 - Share with SDET community
 - Use it for interview preparation
@@ -255,6 +278,7 @@ If this repository helps you:
 # 🚀 FINAL GOAL
 
 Master SQL for:
+
 ✅ SDET Interviews  
 ✅ Automation Frameworks  
 ✅ Backend Validation  
